@@ -5,13 +5,11 @@
     background-size: cover;
     /* background-color: #007073; */
     width: 100%;
-    height: 700px;
+    height: 1000px;
     display: flex;
     align-items: center;
     flex-direction: column;   
 }
-  
-
   .contactBox {
     display: flex;
     justify-content: space-between;
@@ -19,6 +17,7 @@
     width: 100%; 
     height: 400px;
     align-items: center;
+    margin-top: 150px;
   }
   .contactBox h1 {
     color: #fcfafa;
