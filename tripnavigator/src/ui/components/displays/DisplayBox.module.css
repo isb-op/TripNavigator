@@ -1,0 +1,36 @@
+.displayBoxAjust {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.displayBox img {
+    width: 70%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.displayBox img:hover {
+    transform: scale(1.1); 
+}
+
+.displayBox p {
+    width: 70%;
+    height: 20vh;
+    margin-top: 14px;
+    font-size: 11px;
+    text-align: justify;
+}
