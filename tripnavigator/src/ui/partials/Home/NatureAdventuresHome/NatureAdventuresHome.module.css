@@ -1,49 +1,49 @@
 .adventures_container {
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center; 
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     flex-direction: row;
-    gap: 150px;
+    gap: 60px;
   }
  .adventures_container_about {
-    width: 30vw;
-    height: 40vw;
+    width: 500px;
+    height: 200px; 
     text-align: center;
   }
   
   .adventures_container_about h2 {
-    margin-top: 160px;
+    font-family: Poppins, sans-serif;
     text-decoration: none;
     text-align: left;
     font-size: 30px;
     font-weight: 600;
-    font-family: Poppins, sans-serif;
     color: black;
   }
   
 .adventures_container_about p {
-    margin-top: 25px;
+    font-family: Poppins, sans-serif;
+    color: rgb(34, 34, 34);
+    margin-top: 35px;
     text-align: justify;
     font-size: 14px;
     line-height: 1.5;
-    font-family: Poppins, sans-serif;
-    color: black;
+    
   }
   .adventures_container_image{
-    height: 500px;
-    height: 40vw;
+    width: 550px;
+    height: 400px; 
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .adventures_container_image img{
-    height: 400px;
-    width: 500px;
+    width: 440px;
+    height: 330px;
     border-radius: 8%;
     transition: opacity 0.3s ease;
   }

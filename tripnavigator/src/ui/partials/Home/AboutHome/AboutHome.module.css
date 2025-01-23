@@ -1,11 +1,13 @@
 .container_about_home{
     width: 100%;
     height: 100vh;
+    background-size: cover;
     background-color: #0dbdad;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Poppins, sans-serif;
+    color: white;
   }
   .container_about_home h1{
     font-size: 49px;

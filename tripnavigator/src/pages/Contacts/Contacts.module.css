@@ -1,7 +1,71 @@
-.container_contacts{
-    background-color: aliceblue;
-    color:black;  
+  .containerContacts {
+    margin: 0 auto;
+    background-image: url("../../assets/travel2.png");
+    opacity: 0.8;
+    background-size: cover;
+    /* background-color: #007073; */
     width: 100%;
-    height: 87vh;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+  
 
-} 
+  .contactBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;   
+    width: 100%; 
+    height: 400px;
+    align-items: center;
+  }
+  .contactBox h1 {
+    color: #fcfafa;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    font-size: 45px;
+  }
+
+  .contactform {
+    width: 100%; 
+  }
+  
+  .contactform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactform input,
+  .contactform textarea {
+    width: 40%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border:#5e5d5d;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    font-family: "Poppins", serif;
+  }
+  
+  .contactform button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007073;
+    height: 47px;
+    width: 100px;
+    margin-top: 10px;
+    font-family: "Poppins", serif;
+  }
+  
+  .contactform button:hover {
+    background-color: #0dbdad;
+  }
+  
