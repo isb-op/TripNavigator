@@ -3,68 +3,74 @@
     background-image: url("../../assets/travel2.png");
     opacity: 0.8;
     background-size: cover;
-    /* background-color: #007073; */
     width: 100%;
-    height: 1000px;
+    height: 900px;
     display: flex;
     align-items: center;
-    flex-direction: column;   
-}
+    flex-direction: column;
+  }
   .contactBox {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;   
-    width: 100%; 
-    height: 400px;
+    flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    margin-top: 10%; 
   }
   .contactBox h1 {
-    color: #fcfafa;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    line-height: 1.5;
-    font-weight: bold;
     font-family: "Poppins", serif;
-    font-size: 45px;
+    color: #fcfafa;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px rgb(17, 16, 16);
   }
-
   .contactform {
-    width: 100%; 
+    width: 100%;
   }
-  
   .contactform form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
   .contactform input,
   .contactform textarea {
-    width: 40%;
+    font-family: "Poppins", serif;
+    border: #5e5d5d;
+    width: 30%;
+    height: 60px;
     margin-bottom: 15px;
     padding: 10px;
-    border:#5e5d5d;
     border-radius: 5px;
     background-color: rgb(241, 241, 241);
-    height: 50px;
-    font-family: "Poppins", serif;
+    align-content: center;
   }
-  
   .contactform button {
+    height: 47px;
+    width: 100px;
+    margin-top: 10px;
     padding: 10px 20px;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color: #007073;
-    height: 47px;
-    width: 100px;
-    margin-top: 10px;
     font-family: "Poppins", serif;
   }
-  
   .contactform button:hover {
     background-color: #0dbdad;
   }
-  
+  @media (max-width: 800px){
+    .contactBox{
+      margin-top: 45%;
+    }
+    .contactBox h1 {
+      font-size: 45px;
+    }
+    .contactform input,
+    .contactform textarea {
+      width: 70%;      
+    }
+  }

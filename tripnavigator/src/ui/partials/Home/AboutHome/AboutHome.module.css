@@ -2,21 +2,41 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-color: #0dbdad;
+    background-color: #007073;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Poppins, sans-serif;
     color: white;
   }
+  .container_about_home_title{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+  }
   .container_about_home h1{
     font-size: 49px;
-    padding: 10px;
+    margin-left: 10%;
   }
   .container_about_home_box {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 70%;
-    height: 80vh;
+    height: auto;
+}
+@media (max-width: 700px){
+  .container_about_home{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .container_about_home_title{
+    width: 100%;
+  }
+  .container_about_home_box{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+  }
 }

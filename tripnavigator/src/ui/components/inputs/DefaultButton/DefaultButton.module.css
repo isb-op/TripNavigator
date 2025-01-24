@@ -15,3 +15,10 @@
 .button:hover {
     background-color: #007073;
 }
+
+@media (max-width: 800px){
+    .button{
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+}

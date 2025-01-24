@@ -34,3 +34,18 @@
     font-size: 11px;
     text-align: justify;
 }
+
+@media (max-width: 800px){
+    .displayBoxAdjust{
+        width: 90%;
+        height: 30%;
+
+    }
+    .displayBox {
+        width: 90%;
+    }
+    .displayBox p {
+        width: 70%;
+    }
+
+}

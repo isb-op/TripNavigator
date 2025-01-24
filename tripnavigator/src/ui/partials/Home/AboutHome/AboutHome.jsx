@@ -9,7 +9,9 @@ export function AboutHome() {
 
   return (
       <div className={styles.container_about_home}>
+        <div className={styles.container_about_home_title}>
         <h1> Viajar para <br/>todos os lugares </h1>
+        </div>
         <div className={styles.container_about_home_box}>
         <DisplayBox
                 imgSrc={imgTravel1}

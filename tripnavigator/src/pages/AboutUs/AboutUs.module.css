@@ -28,7 +28,7 @@
     font-size: 13px;
 }
 
-.imgTopic{
+.imgTopic {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,4 +48,26 @@
 }
 .imgTopic img:hover{
     transform: scale(1.1); 
+}
+
+@media (max-width: 800px){
+    .container_aboutus{
+        width: 100%;
+        height: auto;
+    }
+    .imgTopic {
+        width: 100%;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    }
+    .imgTopic img{
+        width: 45%;
+        height: auto;
+
+    }
+    .textTopic{
+        width: 95%;
+        height: auto;
+        padding: 5px;
+    }
 }

@@ -15,6 +15,7 @@ export function AboutUs(){
             <div className={styles.imgTop}>
                 <img src={imgTravel1} alt="Cabeçalho: Imagem de viajantes!"/>
             </div>
+        
             <div className={styles.textTopic}>
                 <h1> Nossa missão </h1>
                 <p>
@@ -31,7 +32,6 @@ export function AboutUs(){
             <div className={styles.imgTopic}>
                  <img src={imgTravel6} alt="Cabeçalho: Imagem de viajantes!"/>
                  <img src={imgTravel8} alt="Cabeçalho: Imagem de viajantes!"/>
-
             </div>
             <div className={styles.textTopic}>
                 <h1> Nossos objetivos </h1>
